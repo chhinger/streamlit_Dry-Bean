@@ -1,0 +1,5 @@
+pip
+scikit-learn
+tensorflow
+torch
+streamlit
