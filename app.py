@@ -23,7 +23,7 @@ model_choice = st.selectbox("Select Model", ["PyTorch", "TensorFlow"])
 
 # User Input
 st.write("Enter feature values:")
-features = [st.number_input(f"Feature {i+1}") for i in range(4)]
+features = [st.number_input(f"Feature {i+1}") for i in range(10)]
 
 # Predict Button
 if st.button("Predict"):
